@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Think_StrongsAuk>
+			<version>0.1.0</version>
+		</Think_StrongsAuk>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<strongsauk>
+				<class>StrongsAuk_Setup_Block</class>
+    		</strongsauk>
+    	</blocks>
+    	<resources>
+    	    <strongsauk_setup>
+    	        <setup>
+    	            <module>Think_StrongsAuk</module>
+				  <class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+				  <use>default_setup</use>
+				</connection>
+    	    </strongsauk_setup>
+    	</resources>
+     </global>    
+</config>
